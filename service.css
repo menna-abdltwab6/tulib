@@ -1,0 +1,121 @@
+
+nav { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ position: absolute;
+ width: 100%;
+ top: 0;
+ left: 0;
+  
+}
+ .logo{
+color: rgb(156, 136, 109);    
+font-size: xx-large;
+}
+ nav ul li  a{
+color: #000;
+font-size: small; 
+list-style: none;
+padding: 60px;
+    font-size: large;
+    z-index: 999;
+    text-decoration: none; 
+}
+
+ul li a:hover{
+    color: rgb(190, 155, 102);
+  
+    
+    
+}
+
+nav ul li{ 
+
+color: rgb(212, 189, 158);
+font-size: small; 
+display: inline-block;
+list-style: none;
+z-index: 999;
+text-decoration: none;}
+.card{
+    width: 80%;
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 30px 0;
+}
+
+
+.cards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.card .img{
+    display: flex;
+    flex-direction: column;
+width: 50%;
+}
+
+.card .img img{
+    width: 100%;
+  height: 80%;
+}
+
+.card .img button{
+    width: 170px;
+    height: 40px;
+    background-color: #111;
+    color: #fff;
+    margin-top :30px; 
+}
+
+.card .img button:hover{
+    background-color: #333;
+   
+}
+
+.text{
+    width: 50%;
+    height: 100%;
+}
+
+
+.text h3{
+    font-weight: bold;
+    margin: 15px 0;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+
+.text span{
+  font-size: 15px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 15px 8px;
+
+}
+
+.text div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px 0 0; 
+
+}
+
+.text p{
+    max-width: 80%;
+    font-size: 16px;
+    font-family: 400;
+}
+.text div span{
+    font-size: 12px;
+}
